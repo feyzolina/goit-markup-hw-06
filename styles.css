@@ -1,0 +1,75 @@
+body{
+    font-family:"Roboto", sans-serif;
+    color:#2E2F42;
+    line-height:1.4;
+}
+.page-logo-title{
+    color:navy;
+}
+.page-logo-title:hover {
+    color:bisque;
+}
+.page-logo-title:focus{
+    color:blueviolet;
+}
+.page-menu-list a{
+    color:navy;
+}
+.page-menu-list a:hover{
+    color:bisque;
+}
+.page-menu-list a:focus{
+    color:blueviolet
+}
+.page-link a{
+    color:navy;
+}
+.page-link a:hover{
+    color:bisque
+}
+.page-link a:focus{
+    color:blueviolet;
+}
+.main-class h1{
+    background-color:#2E2F42;
+    color: #FFFFFF;
+}
+.main-class button{
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+.section-info h3{
+    font-size:20px;
+}
+.section-info p{
+    font-size: 16px;
+}
+.section-team h2{
+    font-size:36px;
+}
+.section-team h3{
+    font-size: 20px;
+}
+.section-team p{
+    font-size:16px ;
+}
+.section-portfolio h2{
+    font-size: 36px;
+}
+.section-portfolio h3{
+    font-size: 20px;
+}
+.section-portfolio p{
+    font-size: 16px;
+}
+footer a{
+    font-size: 18px;
+}
+footer p{
+    font-size:16px ;
+}
+
+
+
+
+
