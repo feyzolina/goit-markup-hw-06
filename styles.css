@@ -20,6 +20,11 @@ body {
     color: blueviolet;
 }
 
+.page-menu-list {
+    list-style-type: none;
+
+}
+
 .page-menu-list a {
     font-size: 16px;
     font-weight: 500;
@@ -34,6 +39,10 @@ body {
 
 .page-menu-list a:focus {
     color: blueviolet
+}
+
+.page-link {
+    list-style-type: none;
 }
 
 .page-link a {
@@ -67,6 +76,10 @@ body {
     color: #FFFFFF;
 }
 
+.section-list {
+    list-style-type: none;
+}
+
 .section-info h3 {
     font-size: 20px;
     font-weight: 500;
@@ -96,12 +109,18 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
+
 }
 
 .section-team p {
     font-size: 16px;
     line-height: 24px;
 }
+
+.team-img {
+    list-style-type: none;
+}
+
 
 .section-portfolio h2 {
     font-size: 36px;
@@ -118,6 +137,10 @@ body {
 .section-portfolio p {
     font-size: 16px;
     line-height: 24px;
+}
+
+.team-portfolio {
+    list-style-type: none;
 }
 
 .footer-class {
