@@ -6,8 +6,10 @@ body {
 
 .page-logo-title {
     color: navy;
+    font-size: 18px;
     font-weight: 700;
     line-height:21px;
+    font-family: "Raleway", sans-serif;
 }
 
 .page-logo-title:hover {
@@ -123,10 +125,11 @@ body {
     background-color: #2E2F42;
 }
 
-.footer a {
+footer a {
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
+    font-family: "Raleway", sans-serif; 
 }
 
 footer p {
