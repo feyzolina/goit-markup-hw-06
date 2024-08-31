@@ -1,75 +1,137 @@
-body{
-    font-family:"Roboto", sans-serif;
-    color:#2E2F42;
-    line-height:1.4;
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    background-color: #FFFFFF;
 }
-.page-logo-title{
-    color:navy;
+
+.page-logo-title {
+    color: navy;
+    font-weight: 700;
+    line-height:21px;
 }
+
 .page-logo-title:hover {
-    color:bisque;
+    color: bisque;
 }
-.page-logo-title:focus{
-    color:blueviolet;
+
+.page-logo-title:focus {
+    color: blueviolet;
 }
-.page-menu-list a{
-    color:navy;
+
+.page-menu-list a {
+    font-size:16px;
+    font-weight: 500;
+    line-height:24px;
+    color: navy;
+    text-decoration: none;
 }
-.page-menu-list a:hover{
-    color:bisque;
+
+.page-menu-list a:hover {
+    color: bisque;
 }
-.page-menu-list a:focus{
-    color:blueviolet
+
+.page-menu-list a:focus {
+    color: blueviolet
 }
-.page-link a{
-    color:navy;
+
+.page-link a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: navy;
+    text-decoration: none; 
 }
-.page-link a:hover{
-    color:bisque
+
+.page-link a:hover {
+    color: bisque
 }
-.page-link a:focus{
-    color:blueviolet;
+
+.page-link a:focus {
+    color: blueviolet;
 }
-.main-class h1{
-    background-color:#2E2F42;
+
+.main-class h1 {
+    background-color: #2E2F42;
     color: #FFFFFF;
+    font-weight: 700;
+    line-height: 60px;
 }
-.main-class button{
+
+.main-class button {
     background-color: #4D5AE5;
     color: #FFFFFF;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 24px;
 }
-.section-info h3{
-    font-size:20px;
-}
-.section-info p{
-    font-size: 16px;
-}
-.section-team h2{
-    font-size:36px;
-}
-.section-team h3{
+
+.section-info h3 {
     font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    ;
 }
-.section-team p{
-    font-size:16px ;
+
+.section-info p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
-.section-portfolio h2{
+.section-team{
+    background-color: #F4F4FD;
+}
+.section-team h2 {
     font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
 }
-.section-portfolio h3{
+
+.section-team h3:hover {
+    color: chocolate;
+}
+
+.section-team h3 {
     font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
 }
-.section-portfolio p{
+
+.section-team p {
     font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
-footer a{
+
+.section-portfolio h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.section-portfolio h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.section-portfolio p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.footer-class{
+    background-color: #2E2F42;
+}
+
+.footer a {
     font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
 }
-footer p{
-    font-size:16px ;
+
+footer p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #F4F4FD;
 }
-
-
-
-
-
