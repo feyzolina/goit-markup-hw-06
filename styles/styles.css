@@ -8,7 +8,7 @@ body {
     color: navy;
     font-size: 1.1;
     font-weight: 700;
-    line-height:1.1;
+    line-height: 1.1;
     font-family: "Raleway", sans-serif;
     ;
 }
@@ -78,11 +78,13 @@ body {
     background-color: navy;
     color: #FFFFFF;
 }
-.main-class button:hover{
-    color:bisque
+
+.main-class button:hover {
+    color: bisque
 }
-.main-class button:focus{
-    color:blueviolet;
+
+.main-class button:focus {
+    color: blueviolet;
 }
 
 .section-list {
@@ -136,7 +138,8 @@ body {
     font-weight: 700;
     line-height: 40px;
 }
-.section-portfolio h3:hover{
+
+.section-portfolio h3:hover {
     color: chocolate;
 }
 
@@ -165,7 +168,7 @@ footer a {
     line-height: 21px;
     color: #F4F4FD;
     font-family: "Raleway", sans-serif;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 footer p {
