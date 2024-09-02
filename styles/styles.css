@@ -5,11 +5,15 @@ body {
 }
 
 .page-logo-title {
-    color: #2E2F42;
+    color: #4D5AE5;
     font-size: 1.1;
     font-weight: 700;
     line-height: 1.1;
     font-family: "Raleway", sans-serif;
+}
+
+.header-logo {
+    color: #2E2F42;
 }
 
 .page-logo-title:hover {
@@ -168,9 +172,14 @@ footer a {
     font-size: 1.1;
     font-weight: 700;
     line-height: 21px;
-    color: #F4F4FD;
+    color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     text-decoration: none;
+}
+
+.footer-logo {
+    color: #F4F4FD;
+
 }
 
 footer p {
