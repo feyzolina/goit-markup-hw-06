@@ -5,12 +5,11 @@ body {
 }
 
 .page-logo-title {
-    color: navy;
+    color: #2E2F42;
     font-size: 1.1;
     font-weight: 700;
     line-height: 1.1;
     font-family: "Raleway", sans-serif;
-    ;
 }
 
 .page-logo-title:hover {
@@ -30,7 +29,7 @@ body {
     font-size: 1.0;
     font-weight: 500;
     line-height: 24px;
-    color: navy;
+    color:#2E2F42;
     text-decoration: none;
 }
 
@@ -50,7 +49,7 @@ body {
     font-size: 1.0;
     font-weight: 400;
     line-height: 24px;
-    color: navy;
+    color: #2E2F42;
     text-decoration: none;
 }
 
@@ -75,7 +74,7 @@ body {
     cursor: pointer;
     line-height: 24px;
     font-size: 1.0;
-    background-color: navy;
+    background-color: #2E2F42;
     color: #FFFFFF;
 }
 
