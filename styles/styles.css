@@ -61,11 +61,14 @@ body {
     color: blueviolet;
 }
 
+.section-slogan {
+    background-color: #2E2F42;
+}
+
 .main-class h1 {
     font-weight: 700;
     line-height: 60px;
     font-size: 3.0;
-    background-color: #2E2F42;
     color: #FFFFFF;
 }
 
@@ -74,12 +77,12 @@ body {
     cursor: pointer;
     line-height: 24px;
     font-size: 1.0;
-    background-color: #2E2F42;
+    background-color: #4D5AE5;
     color: #FFFFFF;
 }
 
 .main-class button:hover {
-    color: bisque
+    background-color: #404BBF;
 }
 
 .main-class button:focus {
