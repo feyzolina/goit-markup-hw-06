@@ -35,7 +35,6 @@ nav {
     line-height: 1.1;
     font-family: "Raleway", sans-serif;
     text-decoration: none;
-
 }
 
 .header-logo {
@@ -55,7 +54,6 @@ nav {
     padding-left: 80px;
     display: flex;
     margin-right: auto;
-
 }
 
 .page-menu-list li {
@@ -104,12 +102,10 @@ nav {
 .section-slogan {
     background-color: #2E2F42;
     height: 600px;
-    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .main-class h1 {
@@ -142,16 +138,17 @@ nav {
 }
 
 .container {
-    
     width: 1158px;
     margin: 0 auto;
 }
+
 .background-container {
     background-color: #F4F4FD;
     width: 100vw;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
 }
+
 .section-list {
     list-style-type: none;
     display: flex;
@@ -183,8 +180,6 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align:center;
-    
 }
 
 .section-team h2 {
@@ -193,11 +188,6 @@ nav {
     line-height: 40px;
     text-align: center;
     padding-bottom: 55px;
-
-}
-
-.team-img h3:hover {
-    color: #404BBF;
 }
 
 .section-team h3 {
@@ -205,7 +195,6 @@ nav {
     font-weight: 500;
     line-height: 24px;
     padding-top: 20px;
-
 }
 
 .section-team p {
@@ -213,9 +202,14 @@ nav {
     font-weight: 400;
     line-height: 24px;
 }
-.team-img h3, p{
+
+.team-img h3:hover {
+    color: #404BBF;
+}
+
+.team-img h3,
+p {
     height: 50px;
-    
 }
 
 .team-img {
@@ -223,15 +217,15 @@ nav {
     display: flex;
     align-items: center;
     gap: 32px;
-    
 }
 
 .team-img li {
     background-color: #FFFFFF;
 }
-.section-portfolio{
+
+.section-portfolio {
     padding-top: 120px;
-    padding-bottom:120px;
+    padding-bottom: 120px;
     text-align: center;
 }
 
@@ -243,10 +237,6 @@ nav {
     margin-bottom: 70px;
 }
 
-.list-portfolio h3:hover {
-    color: #404BBF;
-}
-
 .section-portfolio h3 {
     font-size: 1.2em;
     font-weight: 500;
@@ -254,34 +244,39 @@ nav {
     padding-top: 20px;
 }
 
+.list-portfolio h3:hover {
+    color: #404BBF;
+}
+
 .section-portfolio p {
     font-size: 1.0em;
     font-weight: 400;
     line-height: 24px;
 }
-.section-portfolio li{
+
+.section-portfolio li {
     border-bottom: 1px solid #E7E7FC;
 }
+
 .list-portfolio {
     list-style-type: none;
     display: flex;
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-    padding:0;
-    margin: 0;
-    
 }
-.list-portfolio li{
+
+.list-portfolio li {
     margin-bottom: 20px;
 }
-.list-portfolio h3{
+
+.list-portfolio h3 {
     height: 50px;
     text-align: left;
 }
-.list-portfolio p{
-    text-align: left;
 
+.list-portfolio p {
+    text-align: left;
 }
 
 .footer-class {
@@ -304,7 +299,6 @@ footer a {
 
 .footer-logo {
     color: #F4F4FD;
-
 }
 
 footer p {
