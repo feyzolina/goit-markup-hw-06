@@ -215,7 +215,7 @@ nav {
 }
 .team-img h3, p{
     height: 50px;
-
+    
 }
 
 .team-img {
@@ -229,14 +229,18 @@ nav {
 .team-img li {
     background-color: #FFFFFF;
 }
-
+.section-portfolio{
+    padding-top: 120px;
+    padding-bottom:120px;
+    text-align: center;
+}
 
 .section-portfolio h2 {
     font-size: 2.0em;
     font-weight: 700;
     line-height: 40px;
     text-align: center;
-    padding-top: 55px;
+    margin-bottom: 70px;
 }
 
 .list-portfolio h3:hover {
@@ -264,12 +268,20 @@ nav {
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding:0;
+    margin: 0;
     
 }
-.list-portfolio h3, p{
+.list-portfolio li{
+    margin-bottom: 20px;
+}
+.list-portfolio h3{
     height: 50px;
+    text-align: left;
+}
+.list-portfolio p{
+    text-align: left;
+
 }
 
 .footer-class {
