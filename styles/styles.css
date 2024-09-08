@@ -23,7 +23,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 23px;
+    height: 72px;
+    padding-left: 120px;
     border-bottom: 1px solid;
 }
 
@@ -51,15 +52,14 @@ nav {
 
 .page-menu-list {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    padding-left: 80px;
     display: flex;
     margin-right: auto;
 
 }
 
 .page-menu-list li {
-    margin-left: 20px;
+    margin-left: 33px;
 }
 
 .page-menu-list a {
@@ -80,8 +80,7 @@ nav {
 
 .page-link {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    padding-right: 180px;
     display: flex;
 }
 
@@ -248,6 +247,7 @@ nav {
     font-size: 1.2em;
     font-weight: 500;
     line-height: 24px;
+    padding-top: 20px;
 }
 
 .section-portfolio p {
@@ -255,7 +255,9 @@ nav {
     font-weight: 400;
     line-height: 24px;
 }
-
+.section-portfolio li{
+    border-bottom: 1px solid #E7E7FC;
+}
 .list-portfolio {
     list-style-type: none;
     display: flex;
@@ -264,6 +266,10 @@ nav {
     flex-wrap: wrap;
     padding-top: 120px;
     padding-bottom: 120px;
+    
+}
+.list-portfolio h3, p{
+    height: 50px;
 }
 
 .footer-class {
