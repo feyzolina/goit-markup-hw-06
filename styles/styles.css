@@ -180,6 +180,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .section-team h2 {
@@ -221,6 +222,18 @@ p {
 
 .team-img li {
     background-color: #FFFFFF;
+}
+.card-team1{
+    box-shadow: 1px 1px 3px;
+}
+.card-team2 {
+    box-shadow: 1px 1px 3px;
+}
+.card-team3 {
+    box-shadow: 1px 1px 3px;
+}
+.card-team4 {
+    box-shadow: 1px 1px 3px;
 }
 
 .section-portfolio {
