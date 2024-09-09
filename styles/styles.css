@@ -103,6 +103,8 @@ nav {
     height: 600px;
     display: flex;
     justify-content: center; 
+    align-items: center;
+    text-align: center;
 }
 .section-slogan .container {
     display: flex;
