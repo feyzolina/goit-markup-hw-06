@@ -102,16 +102,12 @@ nav {
     background-color: #2E2F42;
     height: 600px;
     display: flex;
-    justify-content: center; 
     align-items: center;
-    text-align: center;
 }
 .section-slogan .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 
