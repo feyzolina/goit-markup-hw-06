@@ -18,6 +18,17 @@ body {
     padding: 0;
     max-width: 100%;
 }
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+.icon .icon-diligence {
+    width: 1.2802734375em;
+}
 
 nav {
     display: flex;
@@ -103,12 +114,42 @@ nav {
     height: 600px;
     display: flex;
     align-items: center;
+    position: relative;
+    background-image: url("/images/people-office.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.section-slogan::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(46, 47, 66, 0.4), rgba(46, 47, 66, 0.7));
+    z-index: 1;
+}
+
+.section-slogan::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(46, 47, 66, 0) 0%, rgba(46, 47, 66, 0.6) 70%);
+    z-index: 2;
+    pointer-events: none;
 }
 
 .section-slogan .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    z-index: 3;
+    color: #2E2F42;
 }
 
 
@@ -118,7 +159,7 @@ nav {
     font-size: 3.5em;
     color: #FFFFFF;
     text-align: center;
-    max-width: 500px;
+    max-width: 550px;
 
 }
 
@@ -216,10 +257,14 @@ p {
     align-items: center;
     text-align: center;
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 .team-img li {
     background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px #2E2F42;
+    text-align: center;
 }
 
 .card-team1 {
@@ -277,12 +322,20 @@ p {
     align-items: center;
     gap: 39px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .list-portfolio li {
     margin-bottom: 20px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px #2E2F42;
+    transition: box-shadow 0.3s ease;
+    text-align: center;
 }
-
+.list-portfolio li:hover {
+    box-shadow: 0px 8px 16px #2E2F42;
+}
 .list-portfolio h3 {
     height: 50px;
     text-align: left;
