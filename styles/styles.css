@@ -176,20 +176,8 @@ nav {
     width: 1158px;
     margin: 0 auto;
 }
-.icon {
-    display: inline;
-    width: 24px;
-    height: 24px;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-    padding: 32px;
-    text-align: center;
-}
-.icon-antenna {
-    font-size: 32px;
-    color: red;
-}
+
+
 
 .section {
     padding-top: 120px;
@@ -270,19 +258,7 @@ p {
     text-align: center;
 }
 
-.card-team1 {
-    box-shadow: 1px 1px 3px;
-}
-
-.card-team2 {
-    box-shadow: 1px 1px 3px;
-}
-
-.card-team3 {
-    box-shadow: 1px 1px 3px;
-}
-
-.card-team4 {
+.card-team1, .card-team2, .card-team3, .card-team4 {
     box-shadow: 1px 1px 3px;
 }
 
