@@ -275,6 +275,17 @@ nav {
     align-items: center;
 
 }
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    gap:10px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: -45px;
+}
+
 
 .section-team h2 {
     font-size: 2.0em;
@@ -396,7 +407,10 @@ p {
     background-color: #2E2F42;
     height: 312px;
     text-align: left;
+    
     padding: 90px;
+    padding-left: 200px;
+    
 }
 
 footer a {
@@ -420,4 +434,15 @@ footer p {
     line-height: 24px;
     color: #F4F4FD;
     max-width: 290px;
+    
+    
+}
+.social-media-footer {
+    display:flex;
+    width: 200px;
+    gap: 7px;
+    height: 50px;
+    margin-left: 500px;
+    margin-top: -45px;
+
 }
