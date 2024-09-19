@@ -28,6 +28,7 @@ nav {
     border-bottom: 1px solid;
 }
 
+
 .page-logo-title {
     color: #4D5AE5;
     font-size: 1.1em;
@@ -35,6 +36,7 @@ nav {
     line-height: 1.1;
     font-family: "Raleway", sans-serif;
     text-decoration: none;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-logo {
@@ -43,10 +45,11 @@ nav {
 
 .page-logo-title:hover {
     color: bisque;
+    background-color: antiquewhite;
 }
 
 .page-logo-title:focus {
-    color: blueviolet;
+    background-color: blueviolet;
 }
 
 .page-menu-list {
@@ -65,14 +68,19 @@ nav {
     line-height: 24px;
     color: #2E2F42;
     text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .page-menu-list a:hover {
     color: #404BBF;
+    background-color: antiquewhite;
+    border-bottom: 2px solid blue;
+
 }
 
 .page-menu-list a:focus {
-    color: blueviolet
+    background-color: blueviolet;
+
 }
 
 .page-link {
@@ -88,14 +96,21 @@ nav {
     color: #2E2F42;
     text-decoration: none;
     margin-left: 50px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .page-link a:hover {
     color: #404BBF;
+    background-color: antiquewhite;
+    border-bottom: 2px solid blue;
+
+
 }
 
 .page-link a:focus {
-    color: blueviolet;
+    background-color: blueviolet;
+
 }
 
 .section-slogan {
@@ -109,6 +124,7 @@ nav {
     background-position: center;
     overflow: hidden;
 }
+
 .section-slogan::before {
     content: "";
     position: absolute;
@@ -162,20 +178,26 @@ nav {
     margin-top: 20px;
     padding: 16px 32px;
     border-radius: 4px;
+    transition: color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-class button:hover {
     background-color: #404BBF;
+    background-color: darkblue;
+
 }
 
 .main-class button:focus {
     color: blueviolet;
+    background-color: #ccc;
+
 }
 
 .container {
     width: 1158px;
     margin: 0 auto;
 }
+
 .icon {
     display: inline-block;
     width: 4em;
@@ -184,6 +206,7 @@ nav {
     stroke: currentColor;
     fill: currentColor;
 }
+
 .icon-box1 {
     display: flex;
     justify-content: center;
@@ -195,6 +218,7 @@ nav {
     background-color: #F4F4FD;
     margin: 0 auto 1em;
 }
+
 .icon-box2 {
     display: flex;
     justify-content: center;
@@ -206,6 +230,7 @@ nav {
     background-color: #F4F4FD;
     margin: 0 auto 1em;
 }
+
 .icon-box3 {
     display: flex;
     justify-content: center;
@@ -217,6 +242,7 @@ nav {
     background-color: #F4F4FD;
     margin: 0 auto 1em;
 }
+
 .icon-box4 {
     display: flex;
     justify-content: center;
@@ -240,11 +266,11 @@ nav {
     align-items: center;
     text-align: center;
     gap: 37px;
-    margin:1em;
+    margin: 1em;
     justify-content: space-around;
 }
 
-.section-list p{
+.section-list p {
     text-align: left;
 }
 
@@ -252,7 +278,7 @@ nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-   
+
 }
 
 .section-info h3 {
@@ -275,12 +301,13 @@ nav {
     align-items: center;
 
 }
-.social-media{
+
+.social-media {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 200px;
-    gap:10px;
+    gap: 10px;
     height: 100px;
     margin: 0 auto;
     margin-top: -45px;
@@ -308,8 +335,18 @@ nav {
     line-height: 24px;
 }
 
+.team-img h3 {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .team-img h3:hover {
     color: #404BBF;
+    background-color: antiquewhite;
+}
+
+.team-img h3:focus {
+
+    background-color: antiquewhite;
 }
 
 .team-img h3,
@@ -333,7 +370,10 @@ p {
     text-align: center;
 }
 
-.card-team1, .card-team2, .card-team3, .card-team4 {
+.card-team1,
+.card-team2,
+.card-team3,
+.card-team4 {
     box-shadow: 1px 1px 3px;
 }
 
@@ -354,10 +394,6 @@ p {
     font-weight: 600;
     line-height: 24px;
     padding-top: 20px;
-}
-
-.list-portfolio h3:hover {
-    color: #404BBF;
 }
 
 .section-portfolio p {
@@ -386,10 +422,14 @@ p {
     box-shadow: 0px 2px 4px #2E2F42;
     transition: box-shadow 0.3s ease;
     text-align: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .list-portfolio li:hover {
     box-shadow: 0px 8px 16px #2E2F42;
+    background-color: antiquewhite;
 }
+
 .list-portfolio h3 {
     height: 50px;
     text-align: left;
@@ -407,10 +447,10 @@ p {
     background-color: #2E2F42;
     height: 312px;
     text-align: left;
-    
+
     padding: 90px;
     padding-left: 200px;
-    
+
 }
 
 footer a {
@@ -434,16 +474,18 @@ footer p {
     line-height: 24px;
     color: #F4F4FD;
     max-width: 290px;
-    
-    
+
+
 }
+
 .social-media-footer p {
     display: block;
     text-align: center;
     margin-bottom: 10px;
     position: absolute;
-    margin-top:-25px;
+    margin-top: -25px;
 }
+
 .social-media-footer {
     display: flex;
     width: 200px;
@@ -452,6 +494,6 @@ footer p {
     transform: translateX(-40%);
     margin-left: 500px;
     margin-top: -45px;
-    
+
 
 }
