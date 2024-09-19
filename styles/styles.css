@@ -28,6 +28,9 @@ nav {
     border-bottom: 1px solid;
     position: relative;
     text-decoration: none;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .page-logo-title {
@@ -150,38 +153,19 @@ nav {
 }
 
 .section-slogan {
-    background-color: #2E2F42;
+    background-color: rgba(128, 128, 128, 0.7);
     height: 600px;
     display: flex;
     align-items: center;
+    justify-content: center;
     position: relative;
-    background-image: url("/images/people-office.jpg");
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.4)), url("/images/people-office.jpg");
     background-size: cover;
     background-position: center;
     overflow: hidden;
-}
-
-.section-slogan::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, rgba(46, 47, 66, 0.4), rgba(46, 47, 66, 0.7));
-    z-index: 1;
-}
-
-.section-slogan::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(circle, rgba(46, 47, 66, 0) 0%, rgba(46, 47, 66, 0.6) 70%);
-    z-index: 2;
-    pointer-events: none;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .section-slogan .container {
@@ -243,6 +227,11 @@ button {
     stroke-width: 0;
     stroke: currentColor;
     fill: currentColor;
+    transition: transform 0.3s, fill 0.3s;
+}
+.icon:hover{
+    transform: scale(1.1);
+    fill:#FFFFFF;
 }
 
 .icon-box1 {
@@ -351,7 +340,6 @@ button {
     margin-top: -45px;
 }
 
-
 .section-team h2 {
     font-size: 2.0em;
     font-weight: 700;
@@ -372,20 +360,8 @@ button {
     font-weight: 400;
     line-height: 24px;
 }
-
-.team-img li {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .team-img li:hover {
-    color: #404BBF;
-    background-color: antiquewhite;
     box-shadow: 0px 8px 16px #2E2F42;
-}
-
-.team-img li:focus {
-
-    background-color: antiquewhite;
 }
 
 .team-img h3,
@@ -510,9 +486,11 @@ p {
     background-color: #2E2F42;
     height: 312px;
     text-align: left;
-
     padding: 90px;
-    padding-left: 200px;
+    padding-left: 170px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
 
 }
 
@@ -537,16 +515,12 @@ footer p {
     line-height: 24px;
     color: #F4F4FD;
     max-width: 290px;
-
-
 }
 
-.social-media-footer p {
-    display: block;
-    text-align: center;
-    margin-bottom: 10px;
+.social-media-footer p {  /*social media yazısı*/
     position: absolute;
-    margin-top: -25px;
+    margin-top: -50px;
+    padding-left: 14px;
 }
 
 .social-media-footer {
@@ -557,6 +531,4 @@ footer p {
     transform: translateX(-40%);
     margin-left: 500px;
     margin-top: -45px;
-
-
 }
