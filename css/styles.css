@@ -41,27 +41,6 @@ nav {
     position: relative;
 }
 
-.page-logo-title::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: #4D5AE5;
-    position: absolute;
-    left: 0;
-    bottom: -24px;
-    transform: scaleX(0);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.page-logo-title:hover::after {
-    transform: scaleX(1);
-}
-
-.page-logo-title.active::after {
-    transform: scaleX(1);
-}
-
 .header-logo {
     color: #2E2F42;
 }
@@ -87,25 +66,16 @@ nav {
 
 }
 
-.page-menu-list li a::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: #4D5AE5;
-    position: absolute;
-    left: 0;
-    bottom: -24px;
-    transform: scaleX(0);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.page-menu-list li a {
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), width 250ms ease-in-out;
 }
 
-.page-menu-list li a:hover::after {
-    transform: scaleX(1);
-}
-
-.page-menu-list li a.active::after {
-    transform: scaleX(1);
+.page-menu-list li a:hover {
+    border-bottom: 2px solid #4D5AE5;
 }
 
 .page-link {
@@ -126,28 +96,18 @@ nav {
     text-decoration: none;
     margin-left: 50px;
     position: relative;
-
 }
 
-.page-link li a::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: #4D5AE5;
-    position: absolute;
-    left: 0;
-    bottom: -24px;
-    transform: scaleX(0);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.page-link li a {
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), width 250ms ease-in-out;
 }
 
-.page-link li a:hover::after {
-    transform: scaleX(1);
-}
-
-.page-link li a.active::after {
-    transform: scaleX(1);
+.page-link li a:hover {
+    border-bottom: 2px solid #4D5AE5;
 }
 
 .section-slogan {
@@ -215,18 +175,10 @@ nav {
     margin-top: 20px;
     padding: 16px 32px;
     border-radius: 4px;
-
 }
-
 
 .main-class button:hover {
     background-color: #404BBF;
-}
-
-.main-class button:focus {
-    color: blueviolet;
-    background-color: #ccc;
-
 }
 
 .container {
