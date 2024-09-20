@@ -145,6 +145,7 @@ nav {
     z-index: 2;
     pointer-events: none;
 }
+
 .section-slogan .container {
     display: flex;
     flex-direction: column;
@@ -260,21 +261,25 @@ nav {
 .social-media {
     display: flex;
     justify-content: center;
-    gap:22px;
+    gap: 22px;
     margin: 0 auto;
     margin-bottom: 30px;
 }
+
 .social-media svg {
     width: 40px;
     height: 40px;
 }
+
 .icon-instagram {
     --color1: #4D5AE5;
     transition: fill 0.3s ease, background-color 0.3s ease;
 }
+
 .icon-instagram:hover {
     --color1: #31D0AA;
 }
+
 .icon-facebook {
     --color1: #4D5AE5;
     transition: fill 0.3s ease, background-color 0.3s ease;
@@ -283,6 +288,7 @@ nav {
 .icon-facebook:hover {
     --color1: #31D0AA;
 }
+
 .icon-linkedn {
     --color1: #4D5AE5;
     transition: fill 0.3s ease, background-color 0.3s ease;
@@ -291,6 +297,7 @@ nav {
 .icon-linkedn:hover {
     --color1: #31D0AA;
 }
+
 .icon-x {
     --color1: #4D5AE5;
     transition: fill 0.3s ease, background-color 0.3s ease;
@@ -299,6 +306,7 @@ nav {
 .icon-x:hover {
     --color1: #31D0AA;
 }
+
 .section-team h2 {
     font-size: 2.0em;
     font-weight: 700;
