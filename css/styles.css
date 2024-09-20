@@ -461,14 +461,10 @@ p {
 .list-portfolio h3 {
     height: 50px;
     text-align: left;
-    border-left: 1px solid #E7E7FC;
-    border-right: 1px solid #E7E7FC;
 }
 
 .list-portfolio p {
     text-align: left;
-    border-left: 1px solid #E7E7FC;
-    border-right: 1px solid #E7E7FC;
 }
 
 .footer-class {
