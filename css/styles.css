@@ -320,8 +320,31 @@ nav {
     --color1: #4D5AE5;
     transition: fill 0.3s ease, background-color 0.3s ease;
 }
-
 .icon-instagram:hover {
+    --color1: #31D0AA;
+}
+.icon-facebook {
+    --color1: #4D5AE5;
+    transition: fill 0.3s ease, background-color 0.3s ease;
+}
+
+.icon-facebook:hover {
+    --color1: #31D0AA;
+}
+.icon-linkedn {
+    --color1: #4D5AE5;
+    transition: fill 0.3s ease, background-color 0.3s ease;
+}
+
+.icon-linkedn:hover {
+    --color1: #31D0AA;
+}
+.icon-x {
+    --color1: #4D5AE5;
+    transition: fill 0.3s ease, background-color 0.3s ease;
+}
+
+.icon-x:hover {
     --color1: #31D0AA;
 }
 .section-team h2 {
