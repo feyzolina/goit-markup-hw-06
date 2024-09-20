@@ -533,8 +533,8 @@ footer p {
 .social-media-footer p {
     /*social media yazısı*/
     position: absolute;
-    margin-top: -50px;
-    padding-left: 14px;
+    margin-top: -40px;
+    padding-left: 4px;
 }
 
 .social-media-footer {
