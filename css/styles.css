@@ -115,47 +115,44 @@ nav {
     height: 600px;
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
     position: relative;
     background-image:
         radial-gradient(circle, rgba(46, 47, 66, 0) 0%, rgba(46, 47, 66, 0.6) 70%),
         linear-gradient(to bottom, rgba(46, 47, 66, 0.4), rgba(46, 47, 66, 0.7)),
         url("/images/people-office.jpg");
-    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    overflow: hidden;
+    background-size: 100% 100%;
+    
 }
 
-.section-slogan .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    z-index: 3;
-    color: #2E2F42;
-}
-
-
-.main-class h1 {
+.section-slogan h1 {
     font-weight: 700;
     line-height: 60px;
     font-size: 3.5em;
     color: #FFFFFF;
+    max-width: 505px; 
     text-align: center;
-    max-width: 550px;
-
+    margin:0 auto;
 }
 
-.main-class button {
-    font-weight: 500;
-    cursor: pointer;
+.section-slogan button {
+    width: 169px;
     line-height: 24px;
+    font-weight: 500;
+    gap:10px;
+    border: none;
+    letter-spacing: 4%;
     font-size: 1.0em;
+    cursor: pointer;
     background-color: #4D5AE5;
     color: #FFFFFF;
-    margin-top: 20px;
     padding: 16px 32px;
     border-radius: 4px;
+    margin-top: 50px;
+    
 }
 
 .main-class button:hover {
@@ -309,7 +306,10 @@ nav {
 }
 
 .team-img li:hover {
-    box-shadow: 0px 8px 16px #2E2F42;
+    box-shadow:
+            0px 2px 1px 0px #2E2F4214,
+            0px 1px 1px 0px #2E2F4229,
+            0px 1px 6px 0px #2E2F4214;
 }
 
 .team-img h3,
@@ -329,16 +329,9 @@ p {
 .team-img li {
     background-color: #FFFFFF;
     border-radius: 4px;
-    box-shadow: 0px 4px 8px #2E2F42;
     text-align: center;
 }
 
-.card-team1,
-.card-team2,
-.card-team3,
-.card-team4 {
-    box-shadow: 1px 1px 3px;
-}
 
 .section-portfolio {
     text-align: center;
@@ -358,23 +351,36 @@ p {
     font-weight: 600;
     line-height: 24px;
     padding-top: 20px;
+    padding-left: 20px;
 }
 
 .section-portfolio p {
     font-size: 1.0em;
     font-weight: 400;
     line-height: 24px;
+    padding-left: 20px;
 }
-
-.section-portfolio li {
-    border-bottom: 1px solid #E7E7FC;
+.section-portfolio .list-portfolio li .card-text {
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+    padding: 15px 16px;
+    width: 100%;
+}
+.section-portfolio .list-portfolio li .card-text h3 {
+padding-bottom: 40px;
+padding-left: 5px;
+}
+.section-portfolio .list-portfolio li .card-text p {
+   
+    padding-left: 5px;
 }
 
 .list-portfolio {
     list-style-type: none;
     display: flex;
     align-items: center;
-    gap: 39px;
+    gap: 36px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -392,13 +398,14 @@ p {
 
 .portfolio-card .hover-text {
     position: absolute;
-    top: 20%;
-    left: 50%;
-    right: -110px;
-    transform: translate(-50%, -50%);
-    color: #FFFFFF;
+    top: 0%;
+    left: 0%;
+    padding: 30px 22px;
+    font-size: 16px;
+    letter-spacing: 2%;
+    color: #F4F4FD;
     opacity: 0;
-    font-size: 1.0em;
+    
 }
 
 .portfolio-card:hover img {
@@ -414,22 +421,17 @@ p {
 
 }
 
-.portfolio-card:hover {
-    background-color: #4D5AE5;
-}
-
 .list-portfolio li {
     margin-bottom: 20px;
     background-color: #FFFFFF;
     border-radius: 4px;
-    box-shadow: 0px 2px 4px #2E2F42;
     position: relative;
     overflow: hidden;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-portfolio h3 {
-    height: 50px;
+    height: 40px;
     text-align: left;
 }
 
