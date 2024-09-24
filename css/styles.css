@@ -62,7 +62,7 @@ nav {
     line-height: 24px;
     color: #2E2F42;
     text-decoration: none;
-    position: relative;
+    padding-bottom: 0px;
 
 }
 
@@ -70,13 +70,25 @@ nav {
     position: relative;
     text-decoration: none;
     padding-bottom: 5px;
+    transition: border-bottom 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.page-menu-list li a:hover {
-    border-bottom: 2px solid #4D5AE5;
-    padding-bottom: 23px;
-    
+.page-menu-list li a::after {
+    content: '';
+    position: absolute;
+    height: 4px;
+    left: 0;
+    border-radius: 2px;
+    background-color: #4D5AE5;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.page-menu-list li a:hover::after {
+    width: 100%;
+    bottom: -22px;
+}
+
+
 
 .page-link {
     list-style-type: none;
@@ -102,11 +114,22 @@ nav {
     position: relative;
     text-decoration: none;
     padding-bottom: 5px;
+    transition: border-bottom 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.page-link li a:hover {
-    border-bottom: 2px solid #4D5AE5;
-    padding-bottom: 23px;
+.page-link li a::after {
+    content: '';
+    position: absolute;
+    height: 4px;
+    left: 0;
+    border-radius: 2px;
+    background-color: #4D5AE5;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.page-link li a:hover::after {
+    width: 100%;
+    bottom: -22px;
 }
 
 .section-slogan {
@@ -291,9 +314,9 @@ p {
     border-radius: 4px;
     text-align: center;
     box-shadow:
-            0px 2px 1px 0px #2E2F4214,
-            0px 1px 1px 0px #2E2F4229,
-            0px 1px 6px 0px #2E2F4214;
+        0px 2px 1px 0px #2E2F4214,
+        0px 1px 1px 0px #2E2F4229,
+        0px 1px 6px 0px #2E2F4214;
 }
 
 
@@ -350,13 +373,15 @@ p {
     gap: 36px;
     flex-wrap: wrap;
     justify-content: center;
-    
+
 }
+
 .list-portfolio li:hover {
     box-shadow: 0px 2px 1px 0px #2E2F4214;
     box-shadow: 0px 1px 1px 0px #2E2F4229;
     box-shadow: 0px 1px 6px 0px #2E2F4214;
 }
+
 .list-portfolio li:hover .hover-text {
     transform: translateY(0);
 }
@@ -402,7 +427,7 @@ p {
     position: relative;
     overflow: hidden;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+
 }
 
 
