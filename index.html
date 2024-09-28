@@ -43,20 +43,45 @@
 
         <form id="modal-window">
             <fieldset>
-
+                <div class="input-container">
+                    <svg class="icon icon-close">
+                        <use href="icons.svg#icon-close"></use>
+                    </svg>
+                </div>
                 <p>Leave your contacts and we will call you back</p>
+
                 <label for="name">Name</label>
-                <input type="text" name="name" id="name">
+                <div class="input-container">
+                    <svg class="icon icon-person">
+                        <use href="icons.svg#icon-person"></use>
+                    </svg>
+                    <input type="text" name="name" id="name">
+                </div>
+
+
                 <label for="phone">Phone</label>
-                <input type="tel" name="phone" id="phone">
-                <label for="e-mail">Email</label>
-                <input type="email" name="email" id="e-mail">
+                <div class="input-container">
+                    <svg class="icon icon-phone">
+                        <use href="icons.svg#icon-phone"></use>
+                    </svg>
+                    <input type="tel" name="phone" id="phone">
+                </div>
+
+                <label for="email">Email</label>
+                <div class="input-container">
+                    <svg class="icon icon-email">
+                        <use href="icons.svg#icon-email"></use>
+                    </svg>
+                    <input type="email" name="email" id="email">
+                </div>
+
                 <label for="comment">Comment</label>
                 <textarea id="comment" name="comment" rows="5" cols="50" maxlength="500"
                     placeholder="Text input"></textarea>
                 <label>
                     <input type="checkbox" name="check" value="yes">
-                    I accept the terms and conditions of the <a href="#" class="privacy-policy-link" target="_blank"> Privacy Policy</a>
+                    I accept the terms and conditions of the <a href="#" class="privacy-policy-link" target="_blank">
+                        Privacy Policy</a>
                 </label>
 
                 <input type="submit" value="Send">
