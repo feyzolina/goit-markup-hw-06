@@ -160,7 +160,8 @@ nav {
     margin: 0 auto;
 }
 
-.section-slogan button {
+.section-slogan button,
+input[type="submit"] {
     width: 169px;
     line-height: 24px;
     font-weight: 500;
@@ -174,54 +175,71 @@ nav {
     padding: 16px 32px;
     border-radius: 4px;
     margin-top: 50px;
+    margin: 0 auto;
+    display: block;
 
 }
 
 .main-class button:hover {
     background-color: #404BBF;
 }
-form {
-    justify-content: center;
-    /*silme*/
-    display: flex;
-}
 
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 #modal-window p {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
     text-align: center;
-}
-input{
     width: 100%;
-    box-sizing: border-box;    /*silme*/
+    color: #2E2F42;
+    
 }
-#modal-window label {   /*ayarları tam değil*/
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    /*silme*/
+    padding: 6px;
+}
+#modal-window label {
+    /*ayarları tam değil*/
     width: 34px;
     height: 14px;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 4%;
 }
-::placeholder{
-    font-size: 12px;    /*silme*/
+
+::placeholder {
+    font-size: 12px;
+    /*silme*/
 }
-fieldset {   /*ayarları tam değil*/
+fieldset {
+    /*ayarları tam değil*/
     position: fixed;
     box-sizing: border-box;
-    color: black;
-    background-color: white; 
+    color: #8E8F99;
+    background-color: white;
     top: 2%;
-    padding: 20px;
+    padding: 30px;
     height: 584px;
-    width: 516px;
+    width: 416px;
     border-radius: 4px;
-    text-align: left;
     border: none;
 }
-#comment{
-    display: flex;   /*silme*/
+input[type="submit"]{
+    margin-top: 110px;
+}
+
+#comment {
+    display: flex;
+    /*silme*/
 }
 
 .container {
@@ -234,6 +252,7 @@ fieldset {   /*ayarları tam değil*/
     width: 4em;
     height: 4em;
     stroke-width: 0;
+    fill: currentColor;
 }
 
 
