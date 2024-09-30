@@ -254,6 +254,29 @@ textarea {
     margin: 20px 0;
 }
 
+input,
+textarea,
+button {
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+input:hover,
+textarea:hover,
+button:hover {
+    border-color: #4D5AE5;
+}
+
+.subscribe-section input[type="email"] {
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* Geçiş süresi ve fonksiyonu */
+}
+
+.subscribe-section input[type="email"]:hover {
+    border-color: #4D5AE5;
+
+
+}
+
 label {
     /*ayarları tam değil*/
     font-size: 12px;
