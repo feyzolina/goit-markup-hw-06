@@ -180,6 +180,13 @@ nav {
     background-color: #404BBF;
 }
 
+#modal-window {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
 form {
     display: flex;
     justify-content: center;
@@ -237,10 +244,15 @@ input[type="submit"]:hover {
     height: 25px;
     margin-top: 10px;
     cursor: pointer;
-
+    fill: currentColor;
+    transition: --color3 250ms cubic-bezier(0.4, 0, 0.2, 1), --color4 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
-
-
+.input-container:hover .icon-close{
+    --color3: #8E8F99;
+    --color4: #2e2f42;
+   
+}
 input {
     width: 100%;
     padding: 6px;
@@ -310,14 +322,22 @@ textarea:focus {
 fieldset {
     position: absolute;
     box-sizing: border-box;
-    background-color: white;
-    top: 9%;
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    top: 11%;
     padding: 30px;
     height: 584px;
     width: 416px;
     border-radius: 4px;
     border: none;
+    transition: border-color 250ms ease, background-color 250ms ease;
 }
+fieldset:hover{
+  
+    background-color: white;
+}
+
+
 
 input[type="checkbox"] {
     width: 35px;
