@@ -257,28 +257,17 @@ input[type="submit"]:hover {
     --color3: #8E8F99;
     --color4: #2e2f42;
 }
-
-.input-container .icon-phone {
-
-    fill: var(--color6, #000000);
-    /* Başlangıç rengi */
-    transition: fill 0.3s ease;
-}
-
-.input-container:hover .icon-phone {
-    --color6: #4D5AE5;
-    /* Hover sırasında renk */
-}
+.input-container .icon-person,
+.input-container .icon-phone,
 .input-container .icon-email {
-
     fill: var(--color6, #000000);
-    /* Başlangıç rengi */
-    transition: fill 0.3s ease;
+    transition: fill 250ms ecubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.input-container:hover .icon-person,
+.input-container:hover .icon-phone,
 .input-container:hover .icon-email {
     --color6: #4D5AE5;
-    /* Hover sırasında renk */
 }
 input,
 textarea,
