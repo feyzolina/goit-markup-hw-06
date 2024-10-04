@@ -254,9 +254,10 @@ input[type="submit"]:hover {
 }
 
 .input-container:hover .icon-close {
-    --color3: #4D5AE5;
-    --color4: #4D5AE5;
+    --color3: #8E8F99;
+    --color4: #2e2f42;
 }
+
 .input-container .icon-person,
 .input-container .icon-phone,
 .input-container .icon-email {
@@ -264,11 +265,12 @@ input[type="submit"]:hover {
     transition: fill 250ms ecubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-container:hover .icon-person,
-.input-container:hover .icon-phone,
-.input-container:hover .icon-email {
+.input-container:focus-within .icon-person,
+.input-container:focus-within .icon-phone,
+.input-container:focus-within .icon-email {
     --color6: #4D5AE5;
 }
+
 input,
 textarea,
 button {
@@ -313,7 +315,7 @@ label {
 ::placeholder {
     font-size: 12px;
     color: #8E8F99;
-    
+
 }
 
 fieldset {
