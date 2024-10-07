@@ -1,4 +1,6 @@
-
+* {
+    outline: 1px solid red;
+}
 h1,
 h2,
 h3,
@@ -774,6 +776,9 @@ footer p {
 
 
     nav {
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
         justify-content: space-between;
     }
 
@@ -781,7 +786,7 @@ footer p {
     .page-link {
         display: none;
     }
-
+    
     .hamburger-menu {
         display: block;
         cursor: pointer;
@@ -817,9 +822,24 @@ footer p {
         color: white;
         cursor: pointer;
     }
-
+    .section-slogan{
+        background-image:
+                radial-gradient(circle, rgba(46, 47, 66, 0) 0%, rgba(46, 47, 66, 0.6) 70%),
+                linear-gradient(to bottom, rgba(46, 47, 66, 0.4), rgba(46, 47, 66, 0.7)),
+                url("../images/mobile-people.jpg");
+    }
     .section-info .icon-box {
         display: none;
+        
+    }
+    .section-info{
+        margin-bottom: 25px;
+    }
+    .section-list h3{
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 15px;
+        margin-top: 25px;
     }
 
     .section-list {
