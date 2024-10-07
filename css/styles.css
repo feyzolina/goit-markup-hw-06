@@ -1,4 +1,3 @@
-
 * {
     outline: 1px solid red;
 }
@@ -16,6 +15,7 @@ ul {
     box-sizing: border-box;
 }
 
+
 body {
     font-family: "Roboto", sans-serif;
     color: #2E2F42;
@@ -23,6 +23,7 @@ body {
     margin: 0;
     padding: 0;
     max-width: 100%;
+
 }
 
 header {
@@ -488,14 +489,16 @@ p {
     display: flex;
     align-items: center;
     text-align: center;
-    gap: 32px;
-    flex-wrap: wrap;
+    gap: 34px;
+
+
 }
 
 .team-img li {
     background-color: #FFFFFF;
     border-radius: 4px;
     text-align: center;
+
     box-shadow:
         0px 2px 1px 0px #2E2F4214,
         0px 1px 1px 0px #2E2F4229,
@@ -535,6 +538,7 @@ p {
     line-height: 24px;
     padding-left: 20px;
 }
+
 .section-team,
 .section-portfolio {
     display: flex;
@@ -770,11 +774,7 @@ footer p {
 
 /* Mobil Uyum (320px ve üzeri) */
 @media (max-width: 767px) {
-    .center {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-    }
+
 
     nav {
         justify-content: space-between;
@@ -836,10 +836,20 @@ footer p {
     }
 
     .team-img {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
-     
+
+    .team-img li {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .team-img img {
+        width: 100%;
+        height: auto;
+    }
 
     .container {
         margin: 0px;
@@ -856,6 +866,17 @@ footer p {
         display: flex;
     }
 
+    .list-portfolio li {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .portfolio-card {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
     .footer-container {
         display: flex;
         flex-direction: column;
@@ -864,7 +885,8 @@ footer p {
     }
 
     .footer-class {
-        height: 664px;
+        height: 100%;
+        width: 100%;
     }
 
     .footer-left,
@@ -878,14 +900,16 @@ footer p {
         padding-left: 70px;
 
     }
-    .subscribe-section{
+
+    .subscribe-section {
         margin-top: 70px;
     }
-         .section-team h2,
-         .section-portfolio h2 {
-             font-size: 1.5em;
-             /* Küçük ekranlar için başlık boyutunu küçültüyoruz */
-         }
+
+    .section-team h2,
+    .section-portfolio h2 {
+        font-size: 1.5em;
+        /* Küçük ekranlar için başlık boyutunu küçültüyoruz */
+    }
 
     .subscribe-form {
         width: 165px;
@@ -900,7 +924,7 @@ footer p {
     .subscribe-section button {
         padding: 10px;
     }
-    
+
     .subscribe-section input[type="email"] {
         width: 288px;
         margin-bottom: 15px;
@@ -933,9 +957,7 @@ footer p {
         justify-content: space-around;
     }
 
-    .team-img {
-        flex-direction: row;
-    }
+
 
     .list-portfolio {
         flex-direction: row;
