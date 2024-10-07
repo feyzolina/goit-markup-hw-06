@@ -498,7 +498,7 @@ p {
 
 
 .section-portfolio {
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -633,6 +633,19 @@ p {
     padding-left: 170px;
     margin: 0 auto;
 
+
+}
+
+.footer-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    max-width: 300px;
 }
 
 footer a {
@@ -670,8 +683,7 @@ footer p {
     width: 200px;
     gap: 7px;
     height: 50px;
-    margin-left: 400px;
-    margin-top: -45px;
+
 }
 
 .subscribe-section {
@@ -679,8 +691,13 @@ footer p {
     flex-direction: column;
     align-items: center;
     border-radius: 8px;
-    margin-left: 620px;
-    margin-top: -90px;
+
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .subscribe-section p {
@@ -820,14 +837,61 @@ footer p {
 
     .list-portfolio {
         flex-direction: column;
-        align-items:center;
+        align-items: center;
         display: flex;
     }
 
-    .footer-class {
+    .footer-container {
+        display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        text-align: center;
+
     }
+
+    .footer-class {
+        height: 664px;
+    }
+
+    .footer-left,
+    .footer-center,
+    .footer-right {
+        margin-bottom: 160px;
+        width: 100%;
+    }
+
+    .social-media-footer p {
+        padding-left: 70px;
+
+    }
+    .subscribe-section{
+        margin-top: 70px;
+    }
+
+    .subscribe-form {
+        width: 165px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subscribe-section p {
+        margin-left: 0;
+    }
+
+    .subscribe-section button {
+        padding: 10px;
+    }
+    
+    .subscribe-section input[type="email"] {
+        width: 288px;
+        margin-bottom: 15px;
+    }
+
+    .subscribe-button {
+        width: 100%;
+
+    }
+
+
 }
 
 /* Tabletler (768px ve üzeri) */
