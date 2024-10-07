@@ -1,6 +1,3 @@
-* {
-    outline: 1px solid red;
-}
 
 h1,
 h2,
@@ -874,6 +871,7 @@ footer p {
     .portfolio-card {
         width: 100%;
         max-width: 100%;
+        height: auto;
     }
 
 
@@ -881,12 +879,16 @@ footer p {
         display: flex;
         flex-direction: column;
         text-align: center;
+        align-items: center;
+        pad: 20px;
 
     }
 
     .footer-class {
         height: 100%;
         width: 100%;
+        padding: 50px 20px;
+        box-sizing: border-box;
     }
 
     .footer-left,
@@ -897,18 +899,12 @@ footer p {
     }
 
     .social-media-footer p {
-        padding-left: 70px;
+        padding-left: 10px;
 
     }
 
     .subscribe-section {
         margin-top: 70px;
-    }
-
-    .section-team h2,
-    .section-portfolio h2 {
-        font-size: 1.5em;
-        /* Küçük ekranlar için başlık boyutunu küçültüyoruz */
     }
 
     .subscribe-form {
