@@ -960,7 +960,8 @@ footer p {
         width: 100½;
     }
 
-    .list-portfolio li, .section-list li {
+    .list-portfolio li,
+    .section-list li {
         flex-grow: 1;
         flex-basis: calc(50% - 20px);
         margin-bottom: 20px;
@@ -983,14 +984,10 @@ footer p {
     }
 
 
-    .footer-class {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
     .footer-container {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         text-align: center;
         align-items: center;
         padding: 20px;
@@ -999,16 +996,80 @@ footer p {
     .footer-class {
         height: 100%;
         width: 100%;
-        padding: 50px 20px;
         box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
-    .footer-left,
-    .footer-center,
-    .footer-right {
-        margin-bottom: 160px;
+    .footer-left {
+        margin-bottom: 50px;
         width: 100%;
     }
+
+    .footer-left a {
+        margin-right: 300px;
+    }
+
+    .footer-left p {
+        width: 250px;
+        height: 80px;
+        margin-right: 20px;
+        text-align: left;
+    }
+
+
+    .footer-row {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        margin-right: 70px;
+        margin-bottom: 30px;
+    }
+
+    .social-media-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social-media-footer p {
+        margin-top: -45px;
+        margin-right: 100px;
+    }
+
+    .subscribe-section p,
+    .subscribe-form {
+        margin-right: 100px;
+    }
+
+    .subscribe-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe-form {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .subscribe-form input[type="email"] {
+        width: 350px;
+        /* Genişletildi */
+        padding: 10px;
+    }
+        .subscribe-form button{
+            padding: 10px 20px;
+        }
+
+
+
 }
 
 /* Büyük Ekranlar (1158px ve üzeri) */
