@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: 1px solid red;
-}
+} */
 
 h1,
 h2,
@@ -709,6 +709,7 @@ footer p {
     align-items: center;
     border-radius: 8px;
 
+
 }
 
 .subscribe-form {
@@ -983,6 +984,14 @@ footer p {
         height: auto;
     }
 
+    .footer-class {
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
     .footer-container {
         display: flex;
@@ -993,13 +1002,12 @@ footer p {
         padding: 20px;
     }
 
-    .footer-class {
-        height: 100%;
-        width: 100%;
-        box-sizing: border-box;
+    .footer-row {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        text-align: center;
+        margin-right: 150px;
+        margin-bottom: 30px;
     }
 
     .footer-left {
@@ -1018,21 +1026,12 @@ footer p {
         text-align: left;
     }
 
-
-    .footer-row {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        align-items: center;
-        margin-right: 70px;
-        margin-bottom: 30px;
-    }
-
     .social-media-footer {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
+        padding-top: 45px;
     }
 
     .social-media-footer p {
@@ -1040,35 +1039,27 @@ footer p {
         margin-right: 100px;
     }
 
-    .subscribe-section p,
     .subscribe-form {
-        margin-right: 100px;
+        justify-content: flex-end;
+        margin-right: 150px;
     }
 
-    .subscribe-section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .subscribe-form {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        gap: 10px;
-        width: 100%;
+    .subscribe-section p {
+        margin-right: 180px;
     }
 
     .subscribe-form input[type="email"] {
-        width: 350px;
-        /* Genişletildi */
+        width: 250px;
         padding: 10px;
+        margin-right: 35px;
+     
     }
-        .subscribe-form button{
-            padding: 10px 20px;
-        }
 
-
+    .subscribe-form button {
+        padding: 10px 20px;
+        width: 180px;
+    }
+   
 
 }
 
