@@ -1,6 +1,6 @@
-/* * {
+* {
     outline: 1px solid red;
-} */
+}
 
 h1,
 h2,
@@ -1114,23 +1114,53 @@ footer p {
       box-sizing: border-box;
   }
 .footer-container{
-    flex-direction: row;
+    display: flex;
     max-width: none;
+    padding: 0;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    justify-content: space-between;
 }
-.footer-row{
-    padding-top: 60px;
-    margin-right: 0;
+.footer-left {
+    flex-basis: 30%;
+    /* Alanın yüzde 30'unu kaplar */
+    max-width: 300px;
 }
-.subscribe-form{
+.social-media-footer {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    /* Alanın yüzde 20'sini kaplar */
+    align-items: center;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    /* Simgeler arasında boşluk */
+    margin-top: 10px;
+}
+.subscribe-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-basis: 30%;
+    /* Alanın yüzde 30'unu kaplar */
+    max-width: 400px;
+    margin-left: 30px;
+  
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     margin: 0;
-}
-.footer-left{
-    margin: 0;
-    
-}
-.footer-class{
-    padding-left: 60px;
-    padding-right: 60px;
+    margin-top: 10px;
+    /* Tam genişlik */
+    gap: 8px;
+    /* Input ve buton arasında boşluk */
 }
 
 .subscribe-section p{
@@ -1138,24 +1168,6 @@ footer p {
     padding: 0;
     height: auto;
 }
-.subscribe-form {
-    display: flex;
-    align-items: left;
-}
-.subscribe-section{
-    align-items: flex-start;
-    margin-top: 16px;
-}
- .subscribe-form input[type="email"] {
-     width: 250px;
-     padding: 10px;
-     margin-right: 0;
-
- }
- .subscribe-form button {
-     padding: 10px 10px;
-     width: 180px;
- }
 
 
 
