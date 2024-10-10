@@ -785,6 +785,7 @@ footer p {
     .page-menu-list,
     .page-link {
         display: none;
+
     }
 
 
@@ -814,6 +815,8 @@ footer p {
     .section-list {
         display: flex;
         flex-direction: column;
+        padding: 5px;
+
     }
 
     .section-info p {
@@ -825,11 +828,13 @@ footer p {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 30px;
     }
 
     .team-img li {
         width: 100%;
         max-width: 100%;
+
     }
 
     .team-img img {
@@ -850,6 +855,7 @@ footer p {
         flex-direction: column;
         align-items: center;
         display: flex;
+        padding: 20px;
     }
 
     .list-portfolio li {
@@ -869,24 +875,38 @@ footer p {
         text-align: center;
         align-items: center;
         padding: 20px;
+        max-height: 100%;
+        height: 664px;
     }
 
     .footer-class {
-        height: 100%;
+        max-height: 100%;
+        height: 664px;
+
         width: 100%;
         padding: 50px 20px;
         box-sizing: border-box;
     }
 
+    .footer-row {
+        max-height: 100%;
+        height: 664px;
+    }
+
     .footer-left,
-    .footer-center,
-    .footer-right {
-        margin-bottom: 160px;
+    .social-media-footer,
+    .subscribe-section {
+        margin-bottom: 110px;
         width: 100%;
+
+    }
+
+    .social-media-footer {
+        margin-top: 130px;
     }
 
     .social-media-footer p {
-        padding-left: 10px;
+        width: 100%;
     }
 
     .subscribe-section {
@@ -909,10 +929,10 @@ footer p {
 
     .subscribe-section input[type="email"] {
         width: 288px;
-        margin-bottom: 15px;
+        margin-bottom: 1px;
         border-color: rgb(88, 87, 87);
     }
- 
+
     .subscribe-button {
         width: 100%;
     }
@@ -959,6 +979,10 @@ footer p {
         width: 100½;
     }
 
+    .list-portfolio {
+        padding: 20px;
+    }
+
     .list-portfolio li,
     .section-list li {
         flex-grow: 1;
@@ -1002,48 +1026,55 @@ footer p {
         display: flex;
         flex-wrap: wrap;
         text-align: center;
-        align-items: center;
-        justify-content: center;
     }
-
+    .footer-left{
+        max-width: 270px;
+    }
     .footer-left,
     .social-media-footer {
         flex: 1 1 50%;
     }
 
-    .subscribe-section {
-        flex-basis: 100%;
+    .social-media-footer {
+        max-width: 225px;
+        width: 100%;
+        height: 100%;
+        max-height: 80px;
+        margin-left: 40px;
+    }
+
+    .social-media {
+        margin: 0;
+        margin-top: 45px;
     }
 
     .footer-left,
     .social-media-footer,
     .subscribe-section .footer-right {
-        margin-bottom: 90px;
-        text-align: center;
+        margin-bottom: 40px;
+        text-align: left;
         align-items: center;
-        justify-content: center;
+        justify-content: left;
 
     }
 
-    .social-media-footer {
-        max-width: 300px;
-        /* Genişliği en fazla 500px yapar */
-        width: 100%;
-        height: 100%;
-        max-height: 80px;
-    }
-
-    .social-media {
-        margin: 10px;
+    .subscribe-section p {
+        text-align: left;
     }
 
     .subscribe-section input[type="email"] {
+        width: 270px;
+        padding: 10px;
         border-color: rgb(88, 87, 87);
+        margin-right: 24px;
     }
 
-
-
-
+    .subscribe-section button {
+        width: 170px;
+        padding: 9px 20px;
+        display: block;
+        text-align: center;
+    }
 }
 
 /* Büyük Ekranlar (1158px ve üzeri) */
@@ -1167,9 +1198,10 @@ footer p {
 
         height: auto;
     }
-        .subscribe-section input[type="email"] {
-            border-color: white;
-        }
+
+    .subscribe-section input[type="email"] {
+        border-color: white;
+    }
 
 
 
