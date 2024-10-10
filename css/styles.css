@@ -1005,21 +1005,14 @@ footer p {
         height: auto;
     }
 
-    .footer-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        gap: 30px;
-    }
-
     .footer-class {
         height: 100%;
-        width: 100%;
         box-sizing: border-box;
         display: flex;
         justify-content: center;
+        padding: 150px 150px;
+        
+      
     }
 
     .footer-row {
