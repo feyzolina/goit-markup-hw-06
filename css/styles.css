@@ -752,11 +752,7 @@ footer p {
     }
 
     .page-menu-list,
-    .page-link {
-        display: none;
-    }
-
-    .section-info .icon-box {
+    .page-link, .section .icon-box {
         display: none;
     }
 
