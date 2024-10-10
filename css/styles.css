@@ -910,8 +910,9 @@ footer p {
     .subscribe-section input[type="email"] {
         width: 288px;
         margin-bottom: 15px;
+        border-color: rgb(88, 87, 87);
     }
-
+ 
     .subscribe-button {
         width: 100%;
     }
@@ -1034,6 +1035,10 @@ footer p {
 
     .social-media {
         margin: 10px;
+    }
+
+    .subscribe-section input[type="email"] {
+        border-color: rgb(88, 87, 87);
     }
 
 
@@ -1159,11 +1164,15 @@ footer p {
         margin: 0;
         padding: 0;
         margin-top: 20px;
-       
+
         height: auto;
     }
+        .subscribe-section input[type="email"] {
+            border-color: white;
+        }
 
-   
+
+
 
 
 
