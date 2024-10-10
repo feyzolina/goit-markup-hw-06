@@ -23,7 +23,6 @@ body {
     margin: 0;
     padding: 0;
     max-width: 100%;
-
 }
 
 header {
@@ -39,7 +38,6 @@ nav {
     padding: 0 70px;
     text-decoration: none;
     margin: 0 auto;
-
 }
 
 .page-logo-title {
@@ -50,7 +48,6 @@ nav {
     font-family: "Raleway", sans-serif;
     text-decoration: none;
     position: relative;
-
 }
 
 .header-logo {
@@ -60,7 +57,6 @@ nav {
 .page-menu-list {
     list-style-type: none;
     display: flex;
-
 }
 
 .page-menu-list li {
@@ -157,7 +153,6 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
-
 }
 
 .section-slogan h1 {
@@ -205,7 +200,6 @@ form {
     position: absolute;
     z-index: 1000;
     display: none;
-
 }
 
 #modal-window p {
@@ -292,7 +286,6 @@ button {
     border: 1px solid #8E8F99;
     border-radius: 4px;
     background-color: white;
-
 }
 
 input:hover,
@@ -325,7 +318,6 @@ label {
 ::placeholder {
     font-size: 12px;
     color: #8E8F99;
-
 }
 
 fieldset {
@@ -338,7 +330,6 @@ fieldset {
     width: 416px;
     border-radius: 4px;
     border: none;
-
 }
 
 input[type="checkbox"] {
@@ -350,7 +341,6 @@ input[type="checkbox"] {
     border-radius: 2px;
     cursor: pointer;
     background-color: white;
-
 }
 
 
@@ -442,7 +432,6 @@ input[type="checkbox"] {
     gap: 22px;
     margin: 0 auto;
     margin-bottom: 30px;
-
 }
 
 .social-media svg {
@@ -490,8 +479,6 @@ p {
     align-items: center;
     text-align: center;
     gap: 34px;
-
-
 }
 
 .team-img li {
@@ -506,13 +493,10 @@ p {
 
 
 .section-portfolio {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .section-portfolio h2 {
@@ -560,7 +544,6 @@ p {
 }
 
 .section-portfolio .list-portfolio li .card-text p {
-
     padding-left: 5px;
 }
 
@@ -571,7 +554,6 @@ p {
     gap: 36px;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .list-portfolio li:hover {
@@ -615,13 +597,11 @@ p {
     transform: translateY(-100%);
     transition-property: color, background-color;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .portfolio-card:hover .hover-text {
     transform: translateY(0);
 }
-
 
 .list-portfolio li {
     margin-bottom: 20px;
@@ -630,9 +610,7 @@ p {
     position: relative;
     overflow: hidden;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
-
 
 .list-portfolio h3 {
     height: 40px;
@@ -650,13 +628,10 @@ p {
     padding: 90px;
     padding-left: 170px;
     margin: 0 auto;
-
-
 }
 
 .footer-container {
     max-width: 1200px;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -701,7 +676,6 @@ footer p {
     width: 200px;
     gap: 7px;
     height: 50px;
-
 }
 
 .subscribe-section {
@@ -709,8 +683,6 @@ footer p {
     flex-direction: column;
     align-items: center;
     border-radius: 8px;
-
-
 }
 
 .subscribe-form {
@@ -724,14 +696,12 @@ footer p {
     margin-left: -390px;
     font-size: 16px;
     margin-bottom: -30px;
-
 }
 
 .subscribe-section form {
     display: flex;
     align-items: center;
     gap: 14px;
-
 }
 
 .subscribe-section input[type="email"] {
@@ -765,7 +735,6 @@ footer p {
 
 .subscribe-section button:hover {
     background-color: #404BBF;
-
 }
 
 .subscribe-section svg {
@@ -785,20 +754,10 @@ footer p {
     .page-menu-list,
     .page-link {
         display: none;
-
-    }
-
-
-    .section-slogan {
-        background-image:
-            radial-gradient(circle, rgba(46, 47, 66, 0) 0%, rgba(46, 47, 66, 0.6) 70%),
-            linear-gradient(to bottom, rgba(46, 47, 66, 0.4), rgba(46, 47, 66, 0.7)),
-            url("../images/mobile-people.jpg");
     }
 
     .section-info .icon-box {
         display: none;
-
     }
 
     .section-info {
@@ -816,7 +775,6 @@ footer p {
         display: flex;
         flex-direction: column;
         padding: 5px;
-
     }
 
     .section-info p {
@@ -834,7 +792,6 @@ footer p {
     .team-img li {
         width: 100%;
         max-width: 100%;
-
     }
 
     .team-img img {
@@ -882,7 +839,6 @@ footer p {
     .footer-class {
         max-height: 100%;
         height: 664px;
-
         width: 100%;
         padding: 50px 20px;
         box-sizing: border-box;
@@ -898,7 +854,6 @@ footer p {
     .subscribe-section {
         margin-bottom: 110px;
         width: 100%;
-
     }
 
     .social-media-footer {
@@ -938,7 +893,6 @@ footer p {
     }
 }
 
-/* Tabletler (768px ve üzeri) */
 @media (min-width: 767.99px) {
     .container {
         margin: 0px;
@@ -966,7 +920,6 @@ footer p {
         text-align: left;
         margin-bottom: 15px;
         margin-top: 25px;
-
     }
 
     .section-list,
@@ -997,7 +950,6 @@ footer p {
         flex-basis: calc((100% - 40px) / 3);
         width: 100%;
         max-width: 100%;
-
     }
 
     .team-img img {
@@ -1011,8 +963,6 @@ footer p {
         display: flex;
         justify-content: center;
         padding: 150px 150px;
-        
-      
     }
 
     .footer-row {
@@ -1020,9 +970,11 @@ footer p {
         flex-wrap: wrap;
         text-align: center;
     }
-    .footer-left{
+
+    .footer-left {
         max-width: 270px;
     }
+
     .footer-left,
     .social-media-footer {
         flex: 1 1 50%;
@@ -1047,7 +999,6 @@ footer p {
         text-align: left;
         align-items: center;
         justify-content: left;
-
     }
 
     .subscribe-section input[type="email"] {
@@ -1065,7 +1016,6 @@ footer p {
     }
 }
 
-/* Büyük Ekranlar (1158px ve üzeri) */
 @media (min-width: 1157.98px) {
     .container {
         margin: 0;
@@ -1091,7 +1041,6 @@ footer p {
     .section-info .icon-box {
         display: flex;
         width: auto;
-
     }
 
     .section-list,
@@ -1129,8 +1078,8 @@ footer p {
     }
 
     .footer-class {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding:190px 100px;
+        height: 0;
     }
 
     .footer-row {
@@ -1190,12 +1139,13 @@ footer p {
     .subscribe-section input[type="email"] {
         border-color: white;
     }
+}
 
-
-
-
-
-
-
-
+@media (min-resolution: 192dpi) {
+    .section-slogan {
+        background-image:
+                radial-gradient(circle, rgba(46, 47, 66, 0) 0%, rgba(46, 47, 66, 0.6) 70%),
+                linear-gradient(to bottom, rgba(46, 47, 66, 0.4), rgba(46, 47, 66, 0.7)),
+                url("../images/people-office.jpg");
+    }
 }
