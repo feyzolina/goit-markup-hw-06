@@ -1152,6 +1152,7 @@ footer p {
     .footer-left {
         flex-basis: 30%;
         text-align: left;
+        padding-top: 20px;
     }
 
     .social-media-footer {
@@ -1159,7 +1160,7 @@ footer p {
         flex-direction: column;
         flex-basis: 20%;
         align-items: flex-start;
-        padding-top: 35px;
+        padding-top: 57px;
     }
 
     .social-media-footer p {
@@ -1180,7 +1181,6 @@ footer p {
         flex-direction: column;
         align-items: flex-start;
         flex-basis: 50%;
-        margin-bottom: 102px;
     }
 
     .subscribe-form {
