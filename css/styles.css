@@ -151,8 +151,8 @@ nav {
         linear-gradient(to bottom, rgba(46, 47, 66, 0.4), rgba(46, 47, 66, 0.7)),
         url("../images/people-office.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    background-size: 100% 100%;
 }
 
 .section-slogan h1 {
@@ -752,7 +752,8 @@ footer p {
     }
 
     .page-menu-list,
-    .page-link, .section .icon-box {
+    .page-link,
+    .section .icon-box {
         display: none;
     }
 
@@ -987,7 +988,7 @@ footer p {
     .social-media {
         margin-top: 5px;
     }
-    
+
     .footer-left,
     .social-media-footer,
     .subscribe-section .footer-right {
@@ -1073,7 +1074,7 @@ footer p {
     }
 
     .footer-class {
-        padding:190px 100px;
+        padding: 190px 100px;
         height: 0;
     }
 
@@ -1084,7 +1085,7 @@ footer p {
     .footer-left {
         flex-basis: 30%;
         text-align: left;
-        padding-top:25px;
+        padding-top: 25px;
     }
 
     .social-media-footer {
